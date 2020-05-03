@@ -1,0 +1,161 @@
+
+
+/* Global */
+
+html {
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  }
+  /* Device-type rules */
+  @media (min-width: 48em) {
+    html {
+      font-size: 16px;
+    }
+  }
+  @media (min-width: 58em) {
+    html {
+      font-size: 20px;
+    }
+  }
+
+/* Sidebar */
+
+.sidebar {
+    text-align: left;
+    background-color: #71072F;
+    color: rgba(255,255,255,.5);
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    width: 230px;
+  }
+
+/* Tablets, at least 48em wide
+  @media (min-width: 48em) {
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 14rem;
+      text-align: left;
+    }
+  }
+  */
+
+/* Sidebar links */
+.sidebar a {
+    color: #fff;
+  }
+
+/* Sidebar about */
+.sidebar-about h1 {
+    color: #FEE8F7;
+    margin-top: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+  }
+
+.sidebar-about a{
+    text-decoration: none;
+}
+  
+.sidebar-about h2 {
+    color: #FEE8F7;
+    margin-top: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 33px;
+  }
+
+.sidebar-about p{
+    font-size: 16px;
+}
+
+/* Sidebar nav */
+.sidebar-nav {
+    padding-left: 0;
+    list-style: none;
+  }
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #EBE0CA;
+  }
+
+.sidebar-nav li a:hover,
+.sidebar-nav li a:focus{
+    text-decoration: underline;
+}
+
+.sidebar-nav-item.active {
+    font-weight: bold;
+  }
+
+/* Icon-bar */
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: left; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: #bdbbbc; /* icons color */
+    font-size: 26px; /* Increased font size */
+}
+
+/* Content */
+.content {
+    padding-top:    1rem;
+    padding-bottom: 4rem;
+    color: #515151;
+  }
+  @media (min-width: 48em) {
+    .content {
+      max-width: 38rem;
+      margin-left: 20rem;
+      margin-right: 2rem;
+    }
+  }  
+  @media (min-width: 64em) {
+    .content {
+      margin-left: 18rem;
+      margin-right: 4rem;
+    }
+  }
+
+/* Main page */
+.top-headline{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: #78676d
+}
+
+.areas{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #71072F;
+    list-style: none; 
+}
+
+.lead-par{
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    color: #515151;
+}
+
+.remark{
+    font-family: "Roboto", sans-serif;
+    color:#980050;
+    font-size: 22px;
+}
