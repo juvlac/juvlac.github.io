@@ -486,19 +486,27 @@ header h2 {
   font-size: 30px;
 }
 
-.card-1 p {
+.card-1 p a, a:visited {
   color: rgb(229, 215, 219);
   font-weight: 700;
+  text-decoration: none;
+
 }
 
-.card-2 p {
+.card-2 p a, a:visited {
   color: rgb(80, 8, 28);
   font-weight: 700;
+  text-decoration: none;
 }
 
-.card-3 p {
+.card-3 p  {
   color: rgb(80, 8, 28);
   font-weight: 700;
+  text-decoration: none;
+}
+
+.tutorial-cards a:hover {
+  font-size: 33px;
 }
 
 /* About */
