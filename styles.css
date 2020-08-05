@@ -2,6 +2,10 @@
 
 /* Global */
 
+* {
+  box-sizing: border-box;
+}
+
 html {
     font-family: Roboto, sans-serif;
     color: #515151;
@@ -31,8 +35,8 @@ html {
     top:0;
     left: 0;
     bottom: 0;
-    width: 210px;
-    margin-right: 250px;
+    width: 240px;
+    margin-right: 240px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -57,27 +61,28 @@ html {
 
 
 /* Sidebar about */
-.sidebar-about .name {
-    color: #FEE8F7;
+.name {
+    color: #edd7de;
     margin-top: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: "Jost", sans-serif;
     font-weight: 500;
-    font-size: 35px;
+    font-size: 28px;
   }
 
-.sidebar-about a{
-    text-decoration: none;
-}
-  
-.sidebar-about .lastname {
+.lastname {
     color: #FEE8F7;
     margin-top: 0;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 33px;
+    font-size: 28px;
   }
 
-.sidebar-about p{
+
+.sidebar-about a {
+    text-decoration: none;
+}
+  
+.sidebar-about p {
     font-size: 16px;
 }
 
@@ -105,7 +110,6 @@ html {
 
 .foot-bar {
     width: 100%; /* Full-width */
-    overflow: auto; /* Overflow due to float */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -128,7 +132,7 @@ html {
     font-size: 26px; /* Increased font size */
 }
 
-.icon-bar .contact{
+.icon-bar .contact {
   color: #cf194d;
 }
 
@@ -256,8 +260,8 @@ body {
     overflow:auto;
     margin-top: 2px;
     color: #515151;
-    margin-left: 300px;
-    margin-right: 140px;
+    margin-left: 280px;
+    margin-right: 180px;
   }
 
   @media only screen and (max-width: 800px) {
@@ -274,18 +278,20 @@ header {
     padding-top: 0px;
 }
 
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  color: #78676d;
-}
-
-header h2{
+.content1 h1 {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   font-weight: 500;
   color: #71072F;
+  text-align: center;
+}
+
+header h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #78676d;
+  text-align: center;
 }
 
 
@@ -343,19 +349,10 @@ header h2{
 
 /* Methods Section */
 
-.img-container{
+.img-container {
   padding: 0;
 }
 
-.first-col img{
-  width: 630px;
-  height: 420;
-}
-
-.second-col img{
-  width: 630px;
-  height: 420;
-}
 
 /* Clients Section */
 
@@ -434,8 +431,12 @@ header h2{
 /* Tutorials */
 
 .tutorials {
-  margin-left: 300px;
+  margin-left: 280px;
+  margin-right: 180px;
 }
+
+
+
 
 .tutorials h1 {
   font-size: 40px;
@@ -499,3 +500,69 @@ header h2{
   color: rgb(80, 8, 28);
   font-weight: 700;
 }
+
+/* About */
+
+.aboutme {
+  /* background-color: rgb(223, 197, 223); */
+  height: 100%;
+  padding-top: 0px;
+  margin-right: 180px;
+
+}
+
+.aboutme-intro {
+  background-color: white;
+  margin-left: 300px;
+  margin-right: 80px;
+} 
+
+.aboutme-intro-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.aboutme-intro-content {
+  text-align: left;
+  padding: 0px;
+  padding-right: 20px;
+}
+
+
+.aboutme-intro h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #71072F;
+}
+
+
+.aboutme-second {
+  background-color: #f8f4f7;
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+  padding:0px;
+  display: flex;
+}
+
+.aboutme-second-container {
+  margin-top: 10px;
+  margin-left: 300px;
+  margin-right: 100px;
+}
+
+.aboutme-third {
+  font-size: 18px;
+} 
+
+.aboutme-third-container {
+  margin-top: 15px;
+  margin-left: 300px;
+  margin-right: 80px;
+} 
+
+
+
+
