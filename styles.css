@@ -486,20 +486,20 @@ header h2 {
   font-size: 30px;
 }
 
-.card-1 p a, a:visited {
+.card-1 p a, .card-1 p a:visited {
   color: rgb(229, 215, 219);
   font-weight: 700;
   text-decoration: none;
 
 }
 
-.card-2 p a, a:visited {
+.card-2 p a, .card-2 p a:visited {
   color: rgb(80, 8, 28);
   font-weight: 700;
   text-decoration: none;
 }
 
-.card-3 p a, a:visited {
+.card-3 p a, .card-3 p a:visited {
   color: rgb(80, 8, 28);
   font-weight: 700;
   text-decoration: none;
@@ -511,6 +511,10 @@ header h2 {
 
 .tutorial-cards a:active {
   text-decoration: none;
+}
+
+.noborder p a:focus {
+  outline: none;
 }
 
 /* About */
