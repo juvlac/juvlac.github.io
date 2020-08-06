@@ -509,6 +509,10 @@ header h2 {
   font-size: 33px;
 }
 
+.tutorial-cards a:active {
+  text-decoration: none;
+}
+
 /* About */
 
 .aboutme {
