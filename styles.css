@@ -499,7 +499,7 @@ header h2 {
   text-decoration: none;
 }
 
-.card-3 p  {
+.card-3 p a, a:visited {
   color: rgb(80, 8, 28);
   font-weight: 700;
   text-decoration: none;
