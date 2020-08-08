@@ -421,6 +421,10 @@ header h2 {
   color: #71072F;
 }
 
+a.letstalk {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 800px) {
   .cta-last-content {
     margin-left: 20px;
@@ -579,6 +583,69 @@ header h2 {
   margin-right: 80px;
 } 
 
+a {
+  text-decoration: underline;
+  text-decoration-color: #D2DCEE;
+  color: rgb(76, 116, 185);
+}
 
+/* CV */
+.cv {
+  overflow:auto;
+  margin-top: 2px;
+  color: #515151;
+  margin-left: 280px;
+  margin-right: 180px;
+}
 
+.cv h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #78676d;
+}
 
+.cv h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #1a1919;
+}
+
+#present {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #71072F;
+
+}
+
+.cv h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #636061;
+  font-weight: lighter;
+}
+
+.cv  {
+  font-family: Roboto, sans-serif;
+  color: #515151;
+  font-size: 18px;
+}
+
+.cv hr {
+  color: #78676d;
+}
+
+.publication {
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 100px;
+  border-left: 2px solid #9e8a91;
+
+}
+
+a.citation {
+  color: #6e0434;
+  text-decoration: none;
+}
