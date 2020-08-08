@@ -589,6 +589,7 @@ a {
   color: rgb(76, 116, 185);
 }
 
+
 /* CV */
 .cv {
   overflow:auto;
@@ -631,6 +632,12 @@ a {
   font-family: Roboto, sans-serif;
   color: #515151;
   font-size: 18px;
+}
+
+.techniques ul{
+  font-size: 21px;
+  line-height: 35px;
+
 }
 
 .cv hr {
