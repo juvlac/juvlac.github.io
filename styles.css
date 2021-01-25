@@ -757,10 +757,10 @@ h1 .contrast {
 
 .home .about-text {
   margin: 50px;
-  padding: 20px;
+  padding: 10px 40px;
   margin-left: 80px;
   border: solid #ac7c95e7;
-  width: 500px;
+  width: 480px;
   /* background-color: lightskyblue; */
 }
 
