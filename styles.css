@@ -798,8 +798,19 @@ h1 .contrast {
 }
 
 
+/* Contact Form embeded */
 
+.Contact-form-emb {
+  width: 100%;
+  background-color: #f6f7f9;
+  ;
+}
 
+.typeform-widget {
+  width: 75%;
+  margin: 0 auto;
+  height: 400px;
+}
 
 
 
