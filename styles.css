@@ -973,6 +973,7 @@ h1 .contrast {
   text-align: left;
   text-decoration: #4e4347;
   text-decoration-color: #4e4347;
+  
 }
 
 
@@ -1316,3 +1317,21 @@ a {
   text-decoration: none;
 
 } */
+
+
+/* Samples */
+
+.samples {
+  overflow:auto;
+  margin-top: 2px;
+  color: #515151;
+  margin-left: 280px;
+  margin-right: 180px;
+}
+
+.samples h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #78676d;
+}
