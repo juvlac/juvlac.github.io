@@ -1324,12 +1324,11 @@ a {
 .samples {
   overflow:auto;
   margin-top: 2px;
-  color: #515151;
   margin-left: 280px;
   margin-right: 180px;
 }
 
-.didreport {
+.didreport h1 {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   font-weight: 400;
