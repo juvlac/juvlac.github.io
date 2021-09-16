@@ -929,6 +929,67 @@ h1 .contrast {
 
 
 
+/* Tutorials */
+
+.tutorials {
+  height: auto;
+
+}
+
+.tutboxes-container {
+  display: flex;  
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  align-items: left;
+}
+
+.tbox {
+  display: flex;
+  justify-content: flex-start;
+  /* background-color: #a0999b; */
+  margin-bottom: 2%;
+}
+
+
+.tbox1_left {
+  border-radius: 8px;
+  border: 1px solid rgb(229, 215, 219);
+  width: 35%;
+  background-image: url(imgs/Rwebscraping.jpg);
+  background-size: cover;
+}
+
+.tbox_right {
+  padding: 4%;
+  padding-left: 2%;
+}
+
+.Tlink {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  color:#4e4347;
+  text-align: left;
+  text-decoration: #4e4347;
+  text-decoration-color: #4e4347;
+}
+
+
+.tbox_right a::before, a::after {
+  transition-property: initial;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+
+}
+
+.tbox_right a:hover {
+  color: #980050;
+  cursor: pointer;
+  text-decoration: #980050;
+  text-decoration-color: #980050;
+
+}
 
 
 
@@ -936,7 +997,21 @@ h1 .contrast {
 
 
 
+.tbox2_left {
+  border-radius: 8px;
+  border: 1px solid rgb(229, 215, 219);
+  width: 35%;
+  background-image: url(imgs/rvest.jpg);
+  background-size: cover;
+}
 
+.tbox3_left {
+  border-radius: 8px;
+  border: 1px solid rgb(229, 215, 219);
+  width: 35%;
+  background-image: url(imgs/wilcoxonsrjvl.jpg);
+  background-size: cover;
+}
 
 
 
